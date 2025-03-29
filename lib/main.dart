@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'presentation/pages/home_page.dart';
+import 'presentation/pages/welcome_page.dart';
 
 void main() {
   runApp(const ChurchVideoPlayerApp());
@@ -11,12 +11,13 @@ class ChurchVideoPlayerApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Church Video Player',
+      title: 'IASD Video Player',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        fontFamily: 'Lora',
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: const WelcomePage(),
     );
   }
 }

@@ -3,7 +3,7 @@ import 'dart:typed_data';
 class Video {
   final String label; // Nome personalizado
   final String? filePath; // Nome do arquivo (não o caminho completo no web)
-  final Uint8List? thumbnail; // Frame do vídeo como imagem
+  final Uint8List? thumbnail; // Frame do vídeo ou imagem personalizada
 
   Video({required this.label, this.filePath, this.thumbnail});
 
